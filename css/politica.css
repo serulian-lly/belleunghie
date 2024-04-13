@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    background-color: #F4F2EC;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+
+hr{
+    margin-left: 10%;
+    width: 80%;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 1%;
+}
+
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0.5%;
+    color: black;
+    font-size: 14px;
+}
+
+body{
+    text-align: center;
+    background-color: #EBEAE7;
+}
+
+img{
+    width: 10%;
+}
+
+@media screen and (max-width: 800px){
+    img{
+        width: 20%;
+    }
+    
+    header img{
+        width: 20%;
+    }
+}
+
+h1{
+    font-size: 40px;
+    color: #79253D;
+}
+
+.p1{
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.7;
+}
+
+.p2{
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.7;
+}
+
+
+.footer {
+	margin: 20px;
+	border-top: 1px solid #dcdcdc;
+	display: flex;
+    background-color: #F4F2EC;
+	padding: 20px 0;
+}
+
+.footer img {
+	width: 5%;
+}
+
+.footer span {
+	font-size: 0.8125rem;
+	color: #818181;
+	margin: 20px 20px;
+}
+
+.footer a {
+	font-size: 0.8125rem;
+	color: #818181;
+	margin: 40px 20px;
+    margin-left: 70%;
+}

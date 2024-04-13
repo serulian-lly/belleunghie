@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    background-color: #F4F2EC;
+}
+button{
+    background-color: #ffffff;
+    color:#79253D;
+    margin: 20PX;
+}
+
+button  {
+    margin-top: -7vh;
+    margin-bottom: 3vh;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 12%;
+    background-color: #ffffff;
+    color: #79253de7;
+    font-size:x-large;
+}
+button{
+    margin: 1%;
+}
+
+
+tempoAtend{
+    font-size:xx-large;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+
+/* Estilos para o formulário */
+form {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #0d0608;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff4d4d;
+}
+
+
+@media screen and (max-width: 800px){
+    header img{
+        width: 20%;
+    }
+}
+.submit{
+border-radius: 4%;
+}
+hr{
+    margin-left: 10%;
+    width: 80%;
+}
+
+button:hover {
+    background-color: #990a33;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 1%;
+}
+
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0.5%;
+    color: black;
+    font-size: 14px;
+}
+
+body{
+    background-color: #79253D;
+    color: white;
+    text-align: center;
+}
+
+.img{
+    width: 100%;
+}
+
+h1{
+    font-size: 43px;
+}
+.mensagem{
+    color: #0d0608;
+}
+
+.footer {
+	margin: 20px;
+	border-top: 1px solid #dcdcdc;
+	display: flex;
+    background-color: #F4F2EC;
+	padding: 20px 0;
+}
+
+.footer img {
+	width: 5%;
+}
+
+.footer span {
+	font-size: 0.8125rem;
+	color: #818181;
+	margin: 20px 20px;
+}
+
+.footer a {
+	font-size: 0.8125rem;
+	color: #818181;
+	margin: 40px 20px;
+    margin-left: 70%;
+}

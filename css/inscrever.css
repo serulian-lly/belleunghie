@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+header{
+    background-color: #F4F2EC;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+
+@media screen and (max-width: 800px){
+    header img{
+        width: 20%;
+    }
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction :column;
+}
+hr{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.formul{
+    background-color: aquamarine;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 1%;
+}
+
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0.5%;
+    color: black;
+    font-size: 14px;
+}
+
+body{
+    text-align: center;
+    background-color: #EBEAE7;
+}
+
+h1{
+    color: #79253D;
+}
+
+button{
+    background-color: #79253D;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: #F4F2EC;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.insc a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 160%;
+    border-radius: 10px;
+    width: 25vw;
+    height: 8vh;
+}
+
+
+#man a{
+    margin-top: -7vh;
+    margin-bottom: 3vh;
+    margin-right: 1%;
+    background-color: #79253D;
+    color: #EBEAE7;
+    display: flex;
+    align-items: center;
+}
+#man{
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#usu{
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#man a:hover {
+    background-color: #a31b22;
+    box-shadow: 0 0 5px #a31b22,
+    0 0 25px #a31b22; 
+}
+#usu a:hover {
+    background-color: #a31b22;
+    box-shadow: 0 0 5px #a31b22,
+    0 0 25px #a31b22; 
+}
+#usu a{
+    margin-top: -7vh;
+    margin-bottom: 3vh;
+    margin-right: 1%;
+    background-color: #79253D;
+    color: #EBEAE7;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+	margin: 20px;
+	border-top: 1px solid #dcdcdc;
+	display: flex;
+    background-color: #F4F2EC;
+	padding: 20px 0;
+}
+
+.footer img {
+	width: 5%;
+}
+
+.footer span {
+	font-size: 0.8125rem;
+	color: #818181;
+	margin: 20px 20px;
+}
+
+.footer a {
+	font-size: 0.8125rem;
+	color: #818181;
+	margin: 40px 20px;
+    margin-left: 70%;
+}
